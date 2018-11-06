@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HallowIdea</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">CS5041 studio</string>
+    <string name="nav_header_subtitle">pn37@st-andrews.ac.uk</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>

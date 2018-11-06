@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/all_memos"
+            android:icon="@drawable/bulb_outline"
+            android:title="All Memos" />
+        <item
+            android:id="@+id/all_archives"
+            android:icon="@drawable/bulb_outline"
+            android:title="All Archives" />
+        <item
+            android:id="@+id/connectivity"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Connectivity" />
+    </group>
+
+    <item android:title="Category">
+        <menu>
+            <item
+                android:id="@+id/candy"
+                android:icon="@drawable/noun_candy_1394410"
+                android:title="Candy" />
+            <item
+                android:id="@+id/meal"
+                android:icon="@drawable/noun_witch_cauldron_657240"
+                android:title="Meal" />
+            <item
+                android:id="@+id/pumpkin"
+                android:icon="@drawable/noun_pumpkin_657234"
+                android:title="Pumpkin" />
+            <item
+                android:id="@+id/frankenstein"
+                android:icon="@drawable/noun_frankenstein_1394403"
+                android:title="Frankenstein Theme" />
+            <item
+                android:id="@+id/mummy"
+                android:icon="@drawable/noun_mummy_1394414"
+                android:title="Mummy Theme" />
+
+        </menu>
+    </item>
+
+</menu>
